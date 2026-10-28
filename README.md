@@ -1,3 +1,8 @@
+https://www.shadertoy.com/view/NXKSDh
+team: none
+
+
+
 # Lab 08 - Procedural Face
 
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:

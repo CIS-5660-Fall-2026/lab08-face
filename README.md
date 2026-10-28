@@ -1,7 +1,24 @@
 # Lab 08 - Procedural Face
 
-Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
-![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
+## Luke Kwon
+Teammates : No Teammates
+
+Shadertoy link: https://www.shadertoy.com/view/73GXD1
+
+### Surprised
+
+<img width="557" height="314" alt="Screenshot 2026-10-28 at 11 30 52 AM" src="https://github.com/user-attachments/assets/3557d580-d8d6-44c5-a8ab-63c091f3ed01" />
+
+
+### Not Surprised
+
+<img width="557" height="313" alt="Screenshot 2026-10-28 at 11 30 07 AM" src="https://github.com/user-attachments/assets/c152f9fb-cbdb-4159-a3db-d81991dadbf2" />
+
+
+### Happy
+
+<img width="553" height="316" alt="Screenshot 2026-10-28 at 11 29 37 AM" src="https://github.com/user-attachments/assets/2c14fa2d-4eb1-495e-80a0-dee718938716" />
+
 
 ## Setup
 Start by forking [this shadertoy](https://www.shadertoy.com/view/XftyR8)

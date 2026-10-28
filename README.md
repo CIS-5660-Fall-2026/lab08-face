@@ -1,9 +1,15 @@
 # Lab 08 - Procedural Face
 
+## Result
+Shadertoy Link: https://www.shadertoy.com/view/sXGXD1
+
+![image](surprise-sus-face.gif)
+
+
+## Setup
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
 ![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
 
-## Setup
 Start by forking [this shadertoy](https://www.shadertoy.com/view/XftyR8)
 
 ## Task 1

@@ -1,6 +1,15 @@
+
+**University of Pennsylvania, CIS 5660: Procedural Graphics**
 # Lab 08 - Procedural Face
 
+- Bryce Joseph
+- [Website](https://brycejo.com/), [LinkedIn](https://www.linkedin.com/in/brycejoseph/), [GitHub](https://github.com/brycej217)
+- Tested on: Windows 11, Intel(R) CORE(TM) Ultra 9 275HX @ 2.70GHz 32.0GB, NVIDIA GeFORCE RTX 5080 Laptop GPU 16384MB
+
+ShaderToy Link: https://www.shadertoy.com/view/f3KXW1
+
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
+
 ![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
 
 ## Setup

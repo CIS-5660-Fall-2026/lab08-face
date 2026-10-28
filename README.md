@@ -1,3 +1,8 @@
+**Name:** Zhiyao Luo  
+**shader toy:**   
+https://www.shadertoy.com/view/N3VXWh  
+**Extra Credit:** Implemented SADNESS parameter.
+
 # Lab 08 - Procedural Face
 
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:

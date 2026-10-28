@@ -1,26 +1,17 @@
 # Lab 08 - Procedural Face
+Paulo khayat 17691103
 
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
 ![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
 
-## Setup
-Start by forking [this shadertoy](https://www.shadertoy.com/view/XftyR8)
+link: https://www.shadertoy.com/view/7XyXD1
 
-## Task 1
-In the faceSDF function, add a new float parameter called SUPRISE a value between 0 and 1. Copying the way EYE_SEPARATION is used, modify the face such that the gingerbread face looks more or less surprised based on the value of SURPRISE. SURPRISE = 0 should be not very surprised, and SUPRISE = 1.0 should look very surprised. Note that the face shouldn't look broken for any value in that range!
-Changing this parameter should change at least 3 geometic attributes of the face and more than one facial feature (just eyebrows are NOT SUFFICIENT).
+## Faces:
+### 0.7 Sadness, 0.2 Surprise:
+<img width="476" height="362" alt="image" src="https://github.com/user-attachments/assets/433206e2-b5dd-47f6-936d-e14d5aae7bd9" />
 
-![image](https://github.com/user-attachments/assets/76d63b1b-f3af-456a-8031-8b8da0abe125)
+### 1.0 Surprise, 1.0 Tremble, 0.7 Sadness:
+<img width="374" height="364" alt="output" src="https://github.com/user-attachments/assets/3160f7fd-5f20-418b-b40a-ff865c943d68" />
 
-## Task 2
-Your own parameter! Create a new attribute of your choice that maps to a procedural face characteristic in the domain of [0,1]. It SHOULD NOT be a literal attribute, eg. eye-separation or mouth size, but instead a more qualitative, subjective quality that you tie to specific geometic parameters using your design sense. Have fun!
-
-## Extra Credit
-In the faceSDF function, create a new float parameter called SADNESS. Follow the same guidelines as outlined in Task 1.
- 
-## Submission
-- Create a pull request to this repository
-- In the README, include the names of both your team members
-- In the README, create a link to your shader toy solutions
-- Make sure your shadertoy is set to UNLISTED or PUBLIC (so we can see them!)
-
+### 0.5 Surprise, -1.0 Sadness:
+<img width="363" height="357" alt="image" src="https://github.com/user-attachments/assets/8fe9d2f2-389c-482d-9f48-d90e1af4041b" />

@@ -1,5 +1,24 @@
 # Lab 08 - Procedural Face
 
+## Submission
+- **Team member:** Yikai Li
+- **Shadertoy:** https://www.shadertoy.com/view/fXVXDh
+
+
+### Task 1 - SURPRISE
+`SURPRISE` (0 = calm, 1 = very surprised) drives 5 geometric attributes across 3 facial features, all through `mix()` the same way `EYE_SEPARATION` is used:
+- **Eyes:** radius grows from 0.27 to 0.38.
+- **Eyebrows:** raised from y = 1.42 to 1.72 (and pulled slightly toward the head so they stay on the surface).
+- **Mouth:** goes from a wide, flat slit to a narrow, tall "O" (non-uniform scale on the mouth sphere) and moves slightly down.
+
+### Task 2 - SKEPTICISM
+`SKEPTICISM` (0 = neutral, 1 = "really?") is expressed through asymmetry:
+- **Eyebrows:** the left brow lifts up while the right brow lowers and its inner end pinches down into a frown.
+- **Eyes:** the eye under the frowning brow squints (squashed vertically), while the other stays open, as if sizing someone up.
+- **Mouth:** presses into a thinner, narrower line that shifts to one side and tilts, like a noncommittal smirk.
+
+---
+
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
 ![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
 

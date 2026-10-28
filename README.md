@@ -1,26 +1,40 @@
 # Lab 08 - Procedural Face
 
-Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
-![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
+Zhuoyang Pan, Yao Tang
 
-## Setup
-Start by forking [this shadertoy](https://www.shadertoy.com/view/XftyR8)
+Shadertoy: https://www.shadertoy.com/view/s3KXD1
 
-## Task 1
-In the faceSDF function, add a new float parameter called SUPRISE a value between 0 and 1. Copying the way EYE_SEPARATION is used, modify the face such that the gingerbread face looks more or less surprised based on the value of SURPRISE. SURPRISE = 0 should be not very surprised, and SUPRISE = 1.0 should look very surprised. Note that the face shouldn't look broken for any value in that range!
-Changing this parameter should change at least 3 geometic attributes of the face and more than one facial feature (just eyebrows are NOT SUFFICIENT).
+The shader cycles through the three parameters, four seconds each. Set `ANIMATE` to 0 in the Image tab and edit the constants in `faceSDF` to drive them by hand. Image tab is also in [face.glsl](face.glsl).
 
-![image](https://github.com/user-attachments/assets/76d63b1b-f3af-456a-8031-8b8da0abe125)
+![grid](Screenshots/grid.png)
 
-## Task 2
-Your own parameter! Create a new attribute of your choice that maps to a procedural face characteristic in the domain of [0,1]. It SHOULD NOT be a literal attribute, eg. eye-separation or mouth size, but instead a more qualitative, subjective quality that you tie to specific geometic parameters using your design sense. Have fun!
+Rows: SURPRISE, SMUGNESS, SADNESS. Columns: 0, 1/3, 2/3, 1.
 
-## Extra Credit
-In the faceSDF function, create a new float parameter called SADNESS. Follow the same guidelines as outlined in Task 1.
- 
-## Submission
-- Create a pull request to this repository
-- In the README, include the names of both your team members
-- In the README, create a link to your shader toy solutions
-- Make sure your shadertoy is set to UNLISTED or PUBLIC (so we can see them!)
+## Task 1: SURPRISE
 
+- Eyes grow and sit higher
+- Brows lift and arch
+- Mouth grows, drops and deepens into an O
+
+## Task 2: SMUGNESS
+
+Picked it because it's the one asymmetric expression.
+
+- One brow cocked up, the other pressed down
+- Eyes squash into a squint
+- Mouth slides sideways and tilts into a smirk
+- Chin up, slight head roll
+
+## Extra credit: SADNESS
+
+- Brows slant inward
+- Eyes shrink and droop
+- Mouth hole fades into a frown groove (the top arc of a ring centred below the mouth)
+- Tears appear past 0.3 and slide down
+- Head hangs forward
+
+## Notes
+
+- The base puts eyes and brows at a fixed z = 2.0, so lifted brows float off the sphere. `headZ(x, y)` returns the head surface depth and everything is placed relative to it.
+- `ringOnHeadSDF` measures the frown groove's depth from the local head surface, so the arc stays carved in.
+- Tears and the shrunken mouth are clamped to a tiny radius, since a zero-size ellipsoid divides by zero.

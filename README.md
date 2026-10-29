@@ -1,7 +1,12 @@
 # Lab 08 - Procedural Face
 
-**Author:** Xuan Zhu  
-**Shadertoy:** [https://www.shadertoy.com/view/N3ySDW](https://www.shadertoy.com/view/N3ySDW)
+## Team Members
+
+- Xuan Zhu
+
+## Shadertoy
+
+[https://www.shadertoy.com/view/N3ySDW](https://www.shadertoy.com/view/N3ySDW)
 
 <p align="center">
   <img src="5660_lab8_1.gif" width="500" alt="Procedural face demo">

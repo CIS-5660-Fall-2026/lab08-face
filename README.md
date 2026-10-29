@@ -1,5 +1,11 @@
 # Lab 08 - Procedural Face
 
+## Team Members
+- Ximing Luo
+
+## Shadertoy Solution
+[Gingerbread procedural face](https://www.shadertoy.com/view/NXyXWW): SURPRISE (Task 1), GRUMPY (Task 2), SADNESS (Extra Credit)
+
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
 ![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
 

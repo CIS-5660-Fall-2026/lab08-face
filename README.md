@@ -1,3 +1,9 @@
+Team: Julie Swei (myself)
+
+
+ShaderToy Link: https://www.shadertoy.com/view/fXGSWD
+
+
 # Lab 08 - Procedural Face
 
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:

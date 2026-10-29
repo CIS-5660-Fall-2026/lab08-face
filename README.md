@@ -1,5 +1,13 @@
 # Lab 08 - Procedural Face
 
+Name: Xuan Zhu
+
+[Shadertoy Link](https://www.shadertoy.com/view/N3ySDW)
+
+Parameters: SURPRISE (Task 1), MISCHIEF (Task 2), SADNESS (Extra Credit), cycling every 4 seconds.
+
+![demo](5660_lab8_1.gif)
+
 Let's practice parameterization! We'll be starting with an oh-so-beautiful gingerbread man face that looks like this:
 ![image](https://github.com/user-attachments/assets/4707eb0a-b25e-4eda-84e3-3bb336981781)
 
